@@ -1,0 +1,31 @@
+/*clases de portada y cuerpo*/
+.portada{height:350px; background-image: url("../img/dance_1.jpg"); background-position: -10px -30px; background-size: cover;}
+
+
+.portada img{max-width: 100%;}
+.estudio{text-align: left; padding: 3% 0 0 3%;}
+.estudio p:first-of-type{font-size: 1.8em; padding: 3% 0; }
+.estudio p:last-of-type{font-size: 0.7em; padding: 3% 0 5%; }
+
+.ofertas{padding: 30px 0;}
+.ofertas p{font-size: 17px; margin:0 12em;}
+.ofertas img{width: 80px; left: 50%; margin-top: -20px;}
+
+.instructores{position: relative;}
+.instructores div{width: 490px; display: inline-block; height: 300px;}
+/*.instructores div:first-of-type{background-image: url("../img/instructor_4.jpg");}*/
+
+.instructores div:first-of-type{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-image: url("../img/instructor_4.jpg"); background-size: cover;}
+.instructores div:last-of-type{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-image: url("../img/profesor_9.jpg"); background-size: cover;}
+.instructores a{position: absolute; bottom:4px; left: 50%; margin-left: -140px; }
+
+.motivacion{background-image: url("../img/textura_2.jpg"); height: 100px; }
+
+.ubicacion{padding: 2.5em 0;}
+.ubicacion div{width: 450px; display: inline-block;  position: relative;}
+.visita{font-weight: 200;text-align: left; padding: 0em 8em 2.0em .2em; display: inline-block; }
+.visita p:first-child{padding-bottom: 1.0em;}
+.visita p:nth-child(2){font-weight: 300; padding: .2em 0; font-size: 1.4em; color: #fff;}
+
+
+
